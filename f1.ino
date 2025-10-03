@@ -1,9 +1,9 @@
-int ledPins[] = {9,10,11,12,13};  // 5 LEDs
+int ledPins[] = {9,10,11,12,13}; 
 
 void setup() {
-  Serial.begin(9600);  // Bluetooth HC-05 communicates on hardware Serial
+  Serial.begin(9600);  
 
-  // Set LED pins as output
+
   for (int i = 0; i < 5; i++) {
     pinMode(ledPins[i], OUTPUT);
   }
